@@ -37,11 +37,24 @@ a {
   font-family: 'Great Vibes', cursive;
 }
 
+.navbar {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--grey-light);
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+}
+
 footer {
   background-color: var(--grey-dark);
   padding: 40px;
   text-align: center;
-
 }
 
 footer h5 {

@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Logo from './Logo'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='navbar'>
+      <Logo />
       <ul>
         <li>
           <Link to='/'>Home</Link>
