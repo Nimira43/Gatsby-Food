@@ -6,8 +6,8 @@ const index = () => {
       <div>
         <h1>Gatsby Food Company</h1>
         <hr />
-        <Link to='/project1'>Project 1</Link>
-        <Link to='/project2'>Project 2</Link>
+        <Link to='/projects/project1'>Project 1</Link>
+        <Link to='/projects/project2'>Project 2</Link>
         <Link to='/'>Home</Link>
       </div>
     )
