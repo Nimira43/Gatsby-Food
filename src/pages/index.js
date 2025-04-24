@@ -1,14 +1,13 @@
 import * as React from 'react'
-import Navbar from '../components/Navbar'
+import Layout from '../components/Layout'
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <div>
         <h1>Gatsby Food Company</h1>
         <img src="/favicon.ico" alt="logo" width={100} height={80} />
       </div>
-    </div>
+    </Layout>
   )
 }
