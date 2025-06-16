@@ -76,6 +76,10 @@ a {
   margin: 0 auto;
 }
 
+.projects-bg {
+  background-color: var(--main-light);
+}
+
 .about-bg {
   background-color: var(--info-light);
 }
