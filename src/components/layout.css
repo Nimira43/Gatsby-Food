@@ -12,7 +12,6 @@
 :root {
   --main: #ff4500;
   --main-light: #fde3d9;
-  --support: #008080;
   --dark: #111;
   --light: #fffcfa;
   --grey-dark: #333;
@@ -56,7 +55,7 @@ a {
   padding: 20px;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--grey-light);
+  background-color: var(--dark);
 }
 
 .navbar ul {
@@ -100,7 +99,7 @@ a {
 }
 
 footer {
-  background-color: var(--grey-dark);
+  background-color: var(--dark);
   padding: 40px;
   text-align: center;
 }
