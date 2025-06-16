@@ -21,8 +21,7 @@
   --gold-light: #ffffd9;
   --forest-light: #dffcdf;
   --info-light: #e6f8ff;
-  --blaze-light: #ffdbdb;
-
+  --blaze-light: #ffebeb;
 }
 
 body {
@@ -93,7 +92,7 @@ a {
 }
 
 .resources-bg {
-  background-color: var(--gold-light);
+  background-color: var(--blaze-light);
 }
 
 footer {
