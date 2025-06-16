@@ -4,9 +4,8 @@ import Layout from '../components/Layout'
 const about = () => {
   return (
     <Layout>
-      <div className='about-bg'>
+      <div className='about-bg content'>
         <h1>About</h1>
-        <hr />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium in libero assumenda, eum facere aliquid natus placeat ipsa numquam! Repellat?</p>  
       </div>
     </Layout>

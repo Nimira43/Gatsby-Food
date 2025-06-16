@@ -17,9 +17,9 @@
   --grey-dark: #333;
   --grey-light: #ccc;
   --grey-light-extra: #eee;
-  --gold-light: #fefec8;
-  --forest-light: #c3ffc3;
-  --info-light: #cbeefb;
+  --gold-light: #ffffd9;
+  --forest-light: #dffcdf;
+  --info-light: #e6f8ff;
   --blaze-light: #ffdbdb;
 }
 
@@ -72,6 +72,22 @@ a {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+}
+
+.about-bg {
+  background-color: var(--info-light);
+}
+
+.home-bg {
+  background-color: var(--gold-light);
+}
+
+.contact-bg {
+  background-color: var(--forest-light);
+}
+
+.resources-bg {
+  background-color: var(--gold-light);
 }
 
 footer {
