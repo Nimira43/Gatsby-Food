@@ -8,19 +8,19 @@ const Navbar = () => {
       <Logo />
       <ul>
         <li>
-          <Link to='/'>Home</Link>
+          <Link className='nav-link' to='/'>Home</Link>
         </li>
         <li>
-          <Link to='/projects'>Projects</Link>
+          <Link className='nav-link' to='/projects'>Projects</Link>
         </li>
         <li>
-          <Link to='/about'>About</Link>
+          <Link className='nav-link' to='/about'>About</Link>
         </li>
         <li>
-          <Link to='/resources'>Resources</Link>
+          <Link className='nav-link' to='/resources'>Resources</Link>
         </li>
         <li>
-          <Link to='/contact'>Contact</Link>
+          <Link className='nav-link' to='/contact'>Contact</Link>
         </li>
       </ul>
     </div>

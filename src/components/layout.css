@@ -45,7 +45,7 @@ a {
 
 .logo {
   font-family: 'Great Vibes', cursive;
-}
+  color: var(--light);}
 
 .logo-img {
   margin-right: 20px;
@@ -63,6 +63,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;;
+}
+
+.nav-link {
+  color: var(--light);
 }
 
 .content {
