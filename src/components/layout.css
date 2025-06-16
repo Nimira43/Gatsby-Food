@@ -11,6 +11,7 @@
 
 :root {
   --main: #ff4500;
+  --main-light: #fde3d9;
   --support: #008080;
   --dark: #111;
   --light: #fffcfa;
@@ -21,6 +22,7 @@
   --forest-light: #dffcdf;
   --info-light: #e6f8ff;
   --blaze-light: #ffdbdb;
+
 }
 
 body {
