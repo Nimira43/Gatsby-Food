@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Layout from '../components/Layout'
-import '../index.css'
 
 export default function Home() {
   return (
